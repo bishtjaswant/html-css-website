@@ -1,0 +1,394 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@200&display=swap');
+:root{
+    --white:#ffffff;
+    --brown:#e08b6c;
+    --black:#000000;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+header{
+    background-color: black;
+    color: var(--white);
+   border-bottom: 0.3rem solid var(--brown);
+}
+
+header .website_header {
+    padding: 0.5rem;
+    display: flex; 
+    flex-wrap: wrap;
+    height: 3.8rem;
+}
+
+header .website_header h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    margin: 0.1rem 2rem;
+    flex-grow: 9;
+}
+header .website_header img{
+    width: 2rem;
+    object-fit: cover;
+    margin-left: 1.9rem;
+    /* height: 2rem; */
+}
+header .social_icons {
+    display: flex;
+    align-items: center;
+    width: 11rem;
+    /* border: 1px solid; */
+    padding: 0 1rem; 
+}
+header .social_icons i {
+font-size: 1rem;
+width: 1.6rem;
+}
+header .social_icons i:hover{
+    color: aqua;
+cursor: pointer;
+}
+
+
+nav{
+    
+    background: var(--black); 
+    margin: 0.1rem 2rem;
+}
+nav .nav-item{
+    padding: 0.2rem 0.5rem;
+}
+nav .nav-item a { 
+    color: var(--white)!important;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    word-spacing: 0.8rem;
+    letter-spacing: 1px;
+}
+
+nav .nav-item a:hover{
+    color: var(--brown);
+    background-color: var(--brown);
+}
+
+
+
+
+
+
+.breakng-news-section {
+    display: flex;
+    margin: 0rem 2rem 0rem 2.9rem; 
+    height: 2rem;
+}
+
+.breakng-news-section .title {
+    display: inline-block;
+    width: 9rem;
+    /* border: 1px solid slateblue; */
+    height: 1.4rem;
+    text-align: center;
+    line-height: 0.9;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-right: 1.1rem;
+    background-color: var(--brown)
+}
+
+.breakng-news-section a{
+    
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0rem 1rem;
+    letter-spacing: 2px;
+}
+
+
+.breakng-news-section   .breakng-news-date{
+    
+    color: rgba(255,255,255,0.6);
+    font-size: 1.1rem;
+    padding: 0rem 1rem 0rem 0rem; 
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+.popular-news { 
+    display: flex;
+    margin: 0.1rem 0.6rem;
+}
+
+.popular-news img{
+    width: 100%;
+}
+
+.popular-news .feature h1 {
+    color: white;
+    background: black;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+
+
+.popular-news .latest h1 {
+    color: white;
+    background: rgb(228, 59, 59);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.popular-news .feature .carousel-caption h5{
+    
+    font-size: 2.25rem!important;
+}
+.popular-news  .outpicked 
+h1 {
+    color: white;
+    background: rgb(63, 207, 118);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.popular-news .latest-news-img{ 
+    width: 23rem;
+    filter: brightness(1.3);
+    object-fit: cover;
+    height: 10.8rem;
+}
+
+.popular-news .latest .latest-news-container {
+    position: relative;
+}
+
+
+.popular-news .latest .latest-news-container p{
+ 
+    position: absolute;
+    z-index: 1;
+    top: 45px;
+    left: 27px;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--white);
+}
+
+
+.popular-news .outpicked {
+    position: relative;
+}
+
+
+.popular-news .outpicked .latest-news-container p{
+    
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    left: 87px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #ef0f0f;
+}
+
+
+/* more news  */
+
+
+.more-news {
+    display: flex;
+    /* margin: 0.3rem 0.6rem; */
+    background-color: var(--black);
+}
+
+.more-news .news-section {
+display: flex;
+}
+
+
+
+
+.more-news .news-section .first h1 {
+    color: white;
+    background: #e124f1;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+
+.more-news .news-section .second h1 {
+    color: white;    
+    background: #2336ec;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.more-news .right-side-news .recent {
+    color: white;
+    background: #fc8e27;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    font-weight: 600;
+} 
+
+.more-news .more-news-title{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 9px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+
+
+.more-news .more-news-desc {
+    
+    color: white;
+    text-align: justify;
+    font-size: 10px;
+    padding: 0px 13px;
+}
+
+aside .right-side-news  .aside {
+    padding: 0.1rem 1.0rem;
+    display: flex;
+}
+
+aside .right-side-news span {
+    
+    padding: 4px 10px;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+}
+
+footer .about h1 {
+    
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+
+footer .about .social_icons {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    justify-content: space-evenly;
+ 
+}
+
+footer .about .social_icons i {
+    font-size: 2.5rem;
+    width: 1.6rem;
+}
+
+footer .about p{
+    
+    text-align: justify;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+}
+
+footer .instagram {
+    
+    border: 1px solid;
+    width: 90rem;
+}
+
+
+
+
+
+footer .instagram h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+
+footer .instagram .posts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 1.2rem;
+}
+
+footer .instagram .posts img{    
+    width: 9rem;
+     padding: 0.3rem 1rem;
+    object-fit: cover;
+}
+
+
+footer .subscribe {
+    
+    width: 101rem;
+    padding: 2rem 1.2rem;
+}
+
+
+
+footer .subscribe h1 span {
+    background: black;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 0.33rem;
+}
+
+.tagline
+{
+    font-size: 1.1rem;
+    text-align: center;
+    background: black;
+    color: white;
+}
